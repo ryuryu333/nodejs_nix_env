@@ -57,3 +57,8 @@ Add any native build dependencies to `devShells.default.packages` in `flake.nix`
 ## Optional: direnv Integration
 You can use [direnv](https://direnv.net/) with [nix-direnv](https://github.com/nix-community/nix-direnv) to automatically enter the Nix devShell when changing into the project directory.  
 See their documentation for setup instructions.
+
+## References
+[Nixpkgs Reference Manual](https://nixos.org/manual/nixpkgs/stable/)
+
+[Nixpkgs Reference Manual - Javascript packages inside nixpkgs](https://nixos.org/manual/nixpkgs/stable/#javascript-packages-nixpkgs)
