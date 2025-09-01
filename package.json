@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_nix_env",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ryuryu333/nodejs_nix_env#readme",
+  "bugs": {
+    "url": "https://github.com/ryuryu333/nodejs_nix_env/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryuryu333/nodejs_nix_env.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "eslint": "^9.34.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.41.0"
+  }
+}
