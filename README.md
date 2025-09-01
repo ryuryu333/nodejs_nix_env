@@ -5,12 +5,12 @@ Nix generates `node_modules` from your `package-lock.json`, and the template shi
 ## Features
 - Pin Node.js 24 via Nix (easy to change)
 - Reproduce `node_modules` from `package-lock.json` with Nix
-- TypeScript + ESLint + typescript-eslint
+- TypeScript + ESLint + [typescript-eslint](https://typescript-eslint.io/)
 - Include extra build tooling in the devShell (e.g. `openssl`, `python311`) (easy to change)
 
 ## Prerequisites
 - Nix installed with Flakes enabled
-  - see [NixOS wiki](https://wiki.nixos.org/wiki/Flakes)
+  - cf. [NixOS wiki](https://wiki.nixos.org/wiki/Flakes)
 
 ## Quick Start
 1. Enter the development shell
