@@ -19,6 +19,7 @@
       {
         devShells.default = pkgs.mkShell {
           packages = [
+            nodejs
             importNpmLock.hooks.linkNodeModulesHook
           ];
           npmDeps = importNpmLock.buildNodeModules {
