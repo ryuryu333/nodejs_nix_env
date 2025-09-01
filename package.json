@@ -15,15 +15,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "build": "tsc"
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",
-    "@types/jest": "^30.0.0",
     "eslint": "^9.34.0",
-    "jest": "^30.1.2",
-    "ts-jest": "^29.4.1",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.41.0"
   }
