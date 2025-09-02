@@ -43,8 +43,8 @@
 
             # add pkgs you want to include
             # see below
-            pkgs.openssl
-            pkgs.python311
+            # pkgs.openssl
+            # pkgs.python311
           ];
 
           npmDeps = importNpmLock.buildNodeModules {
