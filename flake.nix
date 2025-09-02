@@ -40,7 +40,7 @@
           packages = [
             nodejs
             importNpmLock.hooks.linkNodeModulesHook
-            go-task
+            pkgs.go-task
 
             # add pkgs you want to include
             # see below
