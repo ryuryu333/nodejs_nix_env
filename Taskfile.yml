@@ -1,0 +1,27 @@
+version: '3'
+
+tasks:
+  install:package:
+    desc: install nodejs package by npm
+    cmds:
+      - npm install -D {{.CLI_ARGS}} --package-lock-only
+
+  install:project:
+    desc: install nodejs project by npm
+    cmds:
+      - npm install --package-lock-only
+
+  uninstall:package:
+    desc: uninstall nodejs package by npm
+    cmds:
+      - npm uninstall -D {{.CLI_ARGS}} --package-lock-only
+
+  build:
+    desc: build source code by tsc
+    cmds:
+      - tsc
+
+  lint:
+    desc: lint source code by eslint
+    cmds:
+      - eslint src/
